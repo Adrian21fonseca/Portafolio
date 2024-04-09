@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.navegador{
+    padding: 13px;
+    background: linear-gradient(rgb(85, 85, 85),grey) ;
+}
+
+.linea__navegador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linea__navegador a{
+    color: rgb(0, 0, 0);
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 12px;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.ilustraciones{
+    width: 15px;
+}
+
+hr{
+    border: 1px solid grey;
+    width: 90%;
+}
+
+.fondo{
+    background: linear-gradient(grey,white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar{
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 100px;
+    border: solid 1px black;
+}
+
+.welcome{
+
+    margin: 8px auto;
+
+
+}
+
+.descrip{
+    text-align: center;
+}
+
+.descripcion{
+
+    padding: 2px 25px;
+    margin: 5px 8px 0;
+    display: flex;
+    gap: 5px;
+
+}
+
+.separador{
+    border: solid 1px grey;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.projet{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sub__titulos{
+    margin: 10px auto;
+}
+
+.tex{
+    margin: 8px auto;
+}
+
+.card{
+    width: 66%;
+    height: auto;
+    background: rgba(128, 128, 128, 0.378);
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px black;
+}
+
+.card:hover{
+    width: 66%;
+    height: auto;
+    background: rgba(128, 128, 128, 0.378);
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 18px black;
+}
+
+.cardpng{
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.titulo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.descripcion__de__las__cards{
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.vinculos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.vinculo{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.ilustracion{
+    width: 18px;
+}
