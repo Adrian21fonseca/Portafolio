@@ -32,7 +32,7 @@ body{
 
 hr{
     border: 1px solid grey;
-    width: 90%;
+    width: 80%;
 }
 
 .fondo{
@@ -92,6 +92,7 @@ hr{
 
 .titulopng{
     width: 30px;
+    margin-right: 5px;
 }
 
 .tex{
@@ -164,3 +165,82 @@ hr{
     padding: 0 20px;
 }
 
+#contacto{
+    background: linear-gradient(white, grey);
+    width: 100%;
+}
+
+.caja__formulario{
+    background: rgba(48, 225, 248, 0.251);
+    /* width: 80%; */
+    padding: 15px 0;
+    border-radius: 10px;
+    
+}
+
+.tex{
+    padding: 0 20px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    width: 80%;
+    gap: 3px;
+}
+
+input{
+    padding: 11px;
+    background: rgba(96, 244, 255, 0.289);
+    border: none;
+    border-bottom: 3px solid rgb(2, 95, 112);
+    border-radius: 10px;
+    max-width: 90%;
+    outline: none;
+}
+
+textarea{
+    padding: 11px;
+    background: rgba(96, 244, 255, 0.289);
+    border: none;
+    border-bottom: 3px solid rgba(2, 95, 112, 0.588);
+    border-radius: 10px;
+    max-width: 90%;
+    outline: none;
+}
+
+.boton{
+    width: 43%;
+    margin: 5px auto;
+    font-weight: 600;
+
+    background: rgb(105, 160, 212);
+}
+
+.boton:hover{
+    background: rgb(129, 172, 212);
+    transition: 1s;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: black;
+    font-weight: 600;
+}
+
+footer{
+    background: grey;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.tex__pie__pagina{
+    margin: 0;
+}
