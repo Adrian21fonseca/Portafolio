@@ -244,3 +244,152 @@ footer{
 .tex__pie__pagina{
     margin: 0;
 }
+
+
+@media (min-width: 820px){
+
+    .navegador{
+        padding: 20px;
+    }
+
+    .linea__navegador{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .linea__navegador a{
+        color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        gap: 5px;
+        text-decoration: none;
+    }
+
+    .ilustraciones{
+        width: 25px;
+    }
+
+    hr{
+        border: 2.3px solid rgba(143, 143, 143, 0.608);
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .fondo{
+        background: linear-gradient(grey,white);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .avatar{
+        margin: 10px;
+        width: 130px;
+        border-radius: 60px;
+        border: solid 1px black;
+    }
+
+    .descrip{
+        text-align: center;
+        padding: 10px 60px 10px 60px;
+        font-size: 19px;
+    }
+
+    .separador{
+        border: 1.7px solid rgba(143, 143, 143, 0.608);
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .titulopng{
+        width: 50px;
+    }
+
+    .sub__titulos{
+        font-size: 28px;
+    }
+
+    .tex{
+        font-size: 19px;
+    }
+
+    .cartas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .card{
+        width: 40%;
+        border: solid 1px black;
+        box-shadow: 1px 1px 10px black;
+    }
+
+    .card:hover{
+        width: 41%;
+        height: auto;
+        background: rgba(154, 154, 154, 0.378);
+        margin-top: 30px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 14px black;
+        transition: 1s;
+    }
+
+    .despedida{
+        padding: 15px 40px 5px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .resumen__de__mi{
+        font-size: 18px;
+        padding: 0 50px;
+    }
+
+    .caja__formulario{
+        background: rgba(70, 138, 255, 0.284);
+        width: 80%;
+        margin: 3px auto;
+    }
+
+    footer{
+        padding: 60px;
+    }
+
+}
+
+@media (min-width:1400px){
+
+    .descripcion{
+        display: block;
+    }
+
+
+    .descrip{
+        display: contents;
+    }
+
+
+
+    .card{
+        width: 20%;
+    }
+
+    .card:hover{
+        width: 21%;
+    }
+
+    .caja__formulario{
+        width: 60%;
+        margin: 6px auto;
+    }
+
+    footer{
+        padding: 100px;
+    }
+
+}
